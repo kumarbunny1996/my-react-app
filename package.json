@@ -2,9 +2,13 @@
   "name": "my-react-app",
   "version": "1.0.0",
   "description": "react app",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kumarbunny1996/my-react-app.git"
   },
   "keywords": [
     "react",
@@ -22,5 +26,9 @@
   },
   "browserslist": [
     "last 5 versions"
-  ]
+  ],
+  "bugs": {
+    "url": "https://github.com/kumarbunny1996/my-react-app/issues"
+  },
+  "homepage": "https://github.com/kumarbunny1996/my-react-app#readme"
 }
