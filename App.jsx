@@ -4,7 +4,7 @@ import { APIBASEURL } from "./constants";
 const App = () => {
   useEffect(() => {
     const justStart = async () => {
-      const response = await fetch(`${APIBASEURL}/api/start`, {
+      const response = await fetch(`${APIBASEURL}api/start`, {
         method: "GET",
         // mode: "cors", // no-cors, *cors, same-origin
         // cache: "no-cache", // *default, no-cache, reload, force-cache, only-if-cached
